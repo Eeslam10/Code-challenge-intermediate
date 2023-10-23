@@ -23,3 +23,17 @@ const greetAliens = arr => {
   }
 
   greetAliens(aliens);
+
+
+//   Write a function, convertToBaby(), that takes in an array as an argument and, using a loop, returns a new array with each string in the array prepended with 'baby '.
+const animals = ['panda', 'turtle', 'giraffe', 'hippo', 'sloth', 'human'];
+
+const convertToBaby = arr => {
+    let babyArr = [];
+    for (let i = 0; i < arr.length; i++ ){
+        babyArr.push('baby ' + arr[i])
+    }
+    return babyArr
+  }
+  
+  console.log(convertToBaby(animals))   
