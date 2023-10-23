@@ -3,11 +3,11 @@ const sentence = ['sense.','make', 'all', 'will', 'This'];
 
 const reverseArray = arr => {
     let reversed = [];
-    for (let i = arr.length - 1; i >= 0; i--) {
-        reversed.push(arr[i]);
+    for( i = arr.lenght - 1; i >0; i--){
+        reversed.push(arr[i])
     }
-    return reversed
-};
+    return reversed;
+}
 
 
 // Write a function, greetAliens(), that takes in an array of strings and uses a for loop to print a greeting with each string in the array.
